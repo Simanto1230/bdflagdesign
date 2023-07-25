@@ -1,0 +1,84 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: 1800px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.green{
+	width: 700px;
+	height: 400px;
+	background: green;
+	position: relative;
+}
+
+.red{
+	width: 180px;
+	height: 180px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 25%;
+	left: 30%;
+}
+
+.fb{
+	width: 200px;
+	position: fixed;
+	top: 59%;
+	right: 0%;
+	right: -120px;
+	transition: 2s;
+}
+
+.fb:hover{
+	right: 4px;
+	cursor: pointer;
+}
+
+.social-icon{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 100px 0px 0px;
+}
+.social-icon li{
+	list-style: none;
+	display: inline-block;
+}
+
+.social-icon li a{
+	display: block;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	background: blue;
+	color: white;
+	font-size: 40px;
+	margin: 0px 10px;
+	border-radius: 20%;
+	transition: 2s;
+}
+
+.social-icon li a:hover{
+	background: black;
+	color: white;
+}
